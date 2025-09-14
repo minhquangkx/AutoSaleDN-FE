@@ -1,6 +1,7 @@
 import React from "react";
 import Hero from "../components/Hero";
 import PopularCar from "../components/PopularCar";
+import FeaturedCars from "../components/FeaturedCars";
 import HowItWorks from "../components/HowItWorks";
 import CarAuditSection from "../components/CarAuditSection";
 import ComprehensiveServices from "../components/ComprehensiveServices";
@@ -15,6 +16,7 @@ export default function Home() {
       <CarAuditSection />
       <ComprehensiveServices />
       <CustomerTestimonials />
+      {/* <FeaturedCars /> */}
     </div>
   );
 }
